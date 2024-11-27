@@ -1,0 +1,81 @@
+# General Entries
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+*.out
+*.err
+logs/
+
+# Python virtual environments
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.save
+
+# Test and coverage files
+coverage/
+*.lcov
+.nyc_output/
+.junit/
+.pytest_cache/
+
+# Compiled files
+*.class
+*.o
+*.so
+
+# Deployment and build files
+dist/
+build/
+*.egg
+
+# Cache directories
+.cache/
+.pip-cache/
+.tox/
+
+# Generated assets
+staticfiles/
+assets/
+
+# Angular (Frontend):
+**/dist/
+**/out-tsc/
+**/.angular/
+**/node_modules/
+**/coverage/
+
+# Django and Flask (Backend):
+**/migrations/*.py
+**/migrations/*.pyc
+**/__pycache__/
+**/staticfiles/
+**/db.sqlite3
+**/instance/
+
+# E2E Testing Tools:
+**/cypress/screenshots/
+**/cypress/videos/
